@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+:root{
+    --body-color:#E4E9F7;
+    --nav-color:#010718;
+    --side-nav:#FFF;
+    --text-color:#F2F2F2;
+    --search-text:#010718;
+}
+body{
+    height:100vh;
+    background-color:var(--body-color);
+}
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    height:80px;
+    width:100%;
+    background-color:var(--nav-color);
+
+}
+nav .navBar{
+    position:relative;
+    height:100%;
+    /* max-width:1000px; */
+    width:100%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navBar .nav-links{
+    display: flex;
+    align-items: center;
+}
+.navBar .nav-links li{
+    margin:20px;
+    list-style: none;
+}
+.nav-links li a{
+    position: relative;
+    font-size:13px ;
+    font-weight: 500;
+    color:whitesmoke;
+    text-decoration: none;
+    padding: 5px;
+    /* margin-left: 50px; */
+}
+nav .navBar .logo{
+    margin-left: 30px;
+}
+.nav-links li a::before{
+    content: '';
+    position: absolute;
+    left:50%;
+    bottom:0;
+    transform:translateX(50%);
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+/* .languageBox>image{
+    height:50%;
+    width:5px;
+    border:0px;
+} */
+.rightBox{
+    position:relative;
+    height:100%;
+    width:30%;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 100px; */
+    /* margin-right: 5px; */
+    padding-right: 5px;
+
+}
+
+.subscribeBox{
+    background-color: orangered;
+    height:40px;
+    width:150px;
+    font-weight: 30%;
+    margin-top: 10px;
+    padding-top: 10px;
+    text-decoration:none;
+    text-align: center;
+    border-radius: 10px;
+
+}
+b{
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+}
+a{
+    text-decoration:none;
+}
+.signinBox img{
+ height:35px;
+ width:23px;
+ margin-top: 15px;
+}
