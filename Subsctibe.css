@@ -1,4 +1,6 @@
-
+*{
+    background-color: rgb(44, 43, 43);
+}
 
 #Sub_box{
    
@@ -6,7 +8,7 @@
     width: 80%;
     margin: auto;
     height: 180px;
-    
+    color: white;
     
 }
 #Sub_box div{
@@ -17,13 +19,15 @@
 }
 h1{
     margin-left: 200px;
+    color: white;
+    font-weight: 4500;
 }
 #price_box{
     display: flex;
     width: 80%;
     margin: auto;
     height: 90px;
-   
+   color: white;
    
 }
 #price_box div{
@@ -50,7 +54,21 @@ button{
 }
 
 #pbox div{
-    border-color: white ;
+
+    border-color: rgb(95, 90, 90);
+}
+#main  #Sub_box div {
+    background-color:rgb(95, 90, 90);
+}
+#main #price_box div{
+    background-color:rgb(95, 90, 90);
+}
+p{
+    background-color: rgb(95, 90, 90);
+}
+h3{
+    background-color:rgb(95, 90, 90);
+    
 }
 
 
