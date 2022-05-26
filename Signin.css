@@ -10,14 +10,15 @@ img{
    background-color: black;
 }
 #lower{
-    
+    width:200px;
 }
 h1{
     color: white;
-    width: 70%;
-    font-size: 30px;
+    width: 90%;
+    font-size: 40px;
     margin-bottom: 50px;
-     font-weight:300px;
+    font-weight: 900;
+  
 
 }
 h3{
@@ -30,17 +31,25 @@ h3{
     margin: 20px 80px 0px 150px;
     display: flex;
     height: 50px;
+    background-color: rgb(61, 58, 58);
    
 }
 input{
     padding: 15px;
+    background-color: rgb(61, 58, 58);
+    width:250px;
+    color: white;
+    border: none;
+   
 }
 #lower div{
- background-color: white ;
+ background-color:  rgb(61, 58, 58);
  
 }
 #num_1 h3{
-    color:black;
+    color:white;
+    margin-bottom: 25px;
+    
 }
 #num_1{
     display: flex;
@@ -55,12 +64,61 @@ div h3{
 }
 button{
     text-align:center;
-    padding: 20px;
+    padding: 18px;
     background-color: orangered;
     border-radius: 20px;
-    width: 50%;
+    width: 350px;
     margin: auto;
     color: white;
     margin: 20px 80px 0px 150px;
 
 }
+#dot{
+    color: orangered;
+}
+#india{
+    color: white;
+}
+#lower #num_1 div{
+    color: white;
+}
+#lower{
+    border-radius: 10px;
+}
+p{
+    color: grey;
+    margin-left: 170px;
+
+
+}
+#logo{
+   display: flex;
+   margin-left: 160px;
+;
+}
+#logo div div{
+    display: flex;
+    color: white;
+    
+}
+#logo div{
+   display: flex;
+   width: 25%;
+ 
+   border-radius: 5px;
+}
+#logo #logo_{
+    border: 1px solid grey;
+    justify-content: center;
+}
+#write{
+    margin-top: 5px;
+
+}
+#logo div div{
+    justify-content: space-between;
+    margin: 5px;
+}
+
+
+
