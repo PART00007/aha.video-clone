@@ -99,7 +99,7 @@ nav .navBar .logo{
     padding-top: 10px;
     text-decoration:none;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 30px;
 
 }
 b{
@@ -148,10 +148,7 @@ input{
     height:55%;
     gap: 5px;
 }
-.halfBox>div{
-    /* border: solid white; */
-    
-}
+
 .b{
     display: flex;
     display: inline-block;
