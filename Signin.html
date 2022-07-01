@@ -31,21 +31,21 @@
                <div id="india"><h3>+91</h3></div>
               </div>
               <div>
-                <input type="number" >
+                <input type="number" id="otp" >
               </div>
               
          </div>
-         <div>
-            <button>Proceed</button>
+         <div id="btn">
+            <input type="submit" id="button" value="Proceed">
             <p>Or, Use one of the following options</p>
         </div>
          <div id="logo">
          <div id="logo_">
              <div>
-                <img src="./logo1.PNG" alt="">
+                <img src="./logo1.PNG" alt="" id="login">
              </div>
              <div id="write">
-                 Email
+                <h4>Email</h4> 
              </div>
          </div>
          <div id="logo_">
@@ -53,7 +53,7 @@
                 <img src="./logo2.PNG" alt="">
              </div>
              <div id="write">
-                 Facebook
+               <h4>  Facebook</h4>
              </div>
          </div>
          <div id="logo_">
@@ -61,12 +61,26 @@
                 <img src="./logo3.PNG" alt="">
              </div>
              <div id="write">
-                 Google
+                 <h4>Google</h4>
+                
              </div>
          </div>
          </div>
         
     </div>
+   <script>
+    document.querySelector("#button").addEventListener("click",function(){
+        event.preventDefault();
+        let otp=document.querySelector("#otp").value;
+        if(otp.length== 10){
+             location.href = "otp.html"
+           }else{
+               alert("invalid phone no")
+           }
+       })
+ 
 
+   </script>
+   
 </body>
 </html>

@@ -1,5 +1,5 @@
 *{
-    background-color: black;
+    background-color:black;
 }
 
 #Sub_box{
@@ -12,13 +12,13 @@
     
 }
 #Sub_box div{
-    border: 1px solid rgb(41, 38, 38);
+    /* border: 1px solid rgb(41, 38, 38); */
     width: 33%;
     padding: 30px;
     border-radius: 14px;
 }
 h1{
-    margin-left: 200px;
+    margin-left: 30px;
     color: white;
     font-weight: 4500;
 }
@@ -32,7 +32,7 @@ h1{
 }
 #price_box div{
     border: 1px solid black;
-    width: 33%;
+    width: 33.33%;
     
     border-radius: 14px;
 }
@@ -42,6 +42,7 @@ button{
     color: white;
     background-color: orangered;
     margin-top: 20px;
+    border: none;
 }
 
 #pbox{
@@ -54,6 +55,7 @@ button{
 }
 
 #pbox div{
+    border: none;
 
     border-color: rgb(61, 58, 58);
 }
@@ -71,9 +73,22 @@ h3{
     
 }
 #img_section{
-    margin-left: 200px;
+    margin-left: 280px;
     margin-top: 20px;
 
+}
+#backside{
+    height:40px;
+    width: 40px;
+}
+a{
+    margin-left: 170px;
+  
+    margin-top: 20px;
+    
+}
+#unique{
+    display: flex;
 }
 
 

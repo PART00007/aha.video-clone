@@ -9,9 +9,15 @@
 </head>
 <body>
     <div id="main">
-    <h1>
-       Choose a Plan
-    </h1>
+       <div id="unique">
+         <a href="" alt="">
+            <img src="./c2cf090f-7fcf-4e0c-89c6-112f6f96d2ed.jpg" id="backside" >
+         </a>
+         <h1>
+          Choose a Plan
+       </h1>
+       </div>
+     
     <div id="Sub_box">
      
        <div>
@@ -48,7 +54,7 @@
                 INR 699 / year
              </div>
              <div>
-                <button>Subscribe</button>
+                <button onclick="fun1()">Subscribe</button>
              </div>
            
          </div>
@@ -60,7 +66,7 @@
                 INR 399 / year  
              </div>
              <div>
-                <button>Subscribe</button>
+                <button onclick="fun2()">Subscribe</button>
              </div>
             
          </div>
@@ -72,7 +78,7 @@
                 INR 199 /3 months
              </div>
              <div>
-                <button>Subscribe</button>
+                <button onclick="fun3()">Subscribe</button>
              </div>
             
          </div>
@@ -84,5 +90,28 @@
        <img src="./Capture.PNG" alt="">
     </div>
 </div>
+<script>
+function fun1(){
+   alert("INR 699 / year Successfully Subscribed!")
+   window.location.href = "homeVedio.html";
+}
+function fun2(){
+   alert("INR 399 / 6 months Successfully Subscribed!")
+   window.location.href = "homeVedio.html";
+}
+function fun3(){
+   alert("INR 199 /3 months Successfully Subscribed!")
+   window.location.href = "homeVedio.html";
+}
+document.querySelector("button").addEventListener("submit",function(){
+        event.preventDefault();
+        var otp=document.querySelector("#").value;
+        if(otp==1234){
+               alert
+           }else{
+               alert("invalid otp")
+           }
+       })
+</script>
 </body>
 </html>
